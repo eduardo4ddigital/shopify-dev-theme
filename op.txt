@@ -33,6 +33,8 @@ shopify cli
 
 PS D:\shopify-dev-theme> shopify login --store modelo-curso.myshopify.com
 
+shopify theme serve
+
 beautify code no visual studio 
 
 Shift + Alt + F

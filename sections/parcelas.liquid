@@ -1,0 +1,379 @@
+<div class="boxPrevisualiza">
+
+    <style>    
+      
+     .boxPrevisualiza {
+       
+        background: white;
+        margin: 25px auto;
+        border: 1px solid #0000001a;
+        border-radius: 10px;
+        padding: 10px;
+        margin-top: 10px;
+        box-shadow: 0px 5px 6px -5px #00000045;
+      
+      }
+      
+    .boxTot img {
+        opacity: 1 !important;
+        background: transparent;
+    }
+
+    .boxTot .font-italic {
+        font-style: italic!important;
+    }
+
+    .boxTot .font-weight-bold {
+        font-weight: 700!important;
+    }
+
+    .boxTot .text-decoration-underline {
+        text-decoration: underline;
+    }
+
+    .boxTot .contBold {
+        font-weight: bold !important;
+    }
+
+    .boxTot .contItalic {
+        font-style: italic !important;
+    }
+
+    .boxTot .boxPrevisualiza {
+        padding-bottom: 20px;
+    }
+
+    .boxTot .contUnderline {
+        text-decoration: underline !important;
+    }
+
+    .boxTot #precoReplace {
+        display: inline-block;
+        width: auto;
+    }
+
+    .boxTot .row {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        width: 100% !important;
+    }
+
+    .boxTot .col-sm-9 {
+        width: 75%;
+    }
+
+    .boxTot .col-sm-3 {
+        width: 25%;
+    }
+
+    .boxTot .col-sm-12 {
+        width: 100%;
+    }
+
+    .boxTot .col-sm-6 {
+        width: 50%;
+    }
+
+    .boxTot .grande {
+        font-size: 50px !important;
+    }
+
+    .boxTot .medio {
+        font-size: 35px !important;
+    }
+
+    .boxTot .normal {
+        font-size: 20px !important;
+    }
+
+    .boxTot .pequeno {
+        font-size: 15px !important;
+    }
+
+    .boxTot .hide {
+        display: none;
+    }
+
+    .boxTot span.parce {
+        font-size: 14px;
+    }
+
+    .boxTot p.fas.fa-angle-down.iconeBt {
+        margin: 0 0 0 17px;
+    }
+
+    .boxTot .cartoes {
+height: 22px;
+width: 43px;
+padding: 0 4px;
+margin: 3px -2px 0 0;
+display: inline-flex;
+    }
+
+    .boxTot .btParcela {
+        display: inline-flex;
+        align-items: center;
+        padding: 0;
+        height: auto;
+        text-decoration: none;
+    }
+
+    .boxTot .btParcela:hover {
+        text-decoration: none !important;
+    }
+
+    .boxTot .btTable {
+        margin: 20px 0;
+        padding: 5px 5px;
+    }
+
+    .boxTot .tableHeadB {
+        border-bottom: 1px solid #dadada;
+    }
+
+    .boxTot .tableBottomB {
+        border-top: 1px solid #dadada;
+    }
+
+    .boxTot span#ProductPrice {
+        font-weight: bold;
+        font-size: 20px;
+        color: #083db3;
+    }
+
+    .boxTot .precoParcela {
+        cursor: pointer;
+        display: block;
+        font-size: 14px;
+        padding: 10px 0;
+    }
+
+    .boxTot .tabelaJuros {
+        /*            border-bottom: 1px solid #dadada;*/
+        display: block;
+    }
+
+    .boxTot span.headTable {
+        font-size: 15px;
+        background-color: #cecece;
+        width: 100%;
+        display: block;
+    }
+
+    .boxTot span.bodyTable {
+        display: flex;
+        width: 100%;
+    }
+
+    .boxTot span.divide {
+        float: left;
+        width: 50%;
+        display: inline-block;
+        padding: 14px 15px;
+    }
+
+    .boxTot span.rowTable {
+        display: block;
+        font-size: 13px;
+        text-align: left;
+        /*          border-bottom: 1px solid #cecece;*/
+    }
+
+    .boxTot span.valorBoleto {
+        font-size: 22px;
+    }
+
+    .boxTot .boleto {
+        color: #321863 !important;
+        font-size: 14px;
+    }
+
+    .boxTot .tabelaJuros {
+        margin: 0;
+        border-top: none;
+    }
+
+    .boxTot {
+        border:0px solid #dadada;
+        padding: 5px;
+        background-color: #fff;
+    }
+
+    .boxTot span.vezes {
+        font-weight: bold;
+    }
+
+    .boxTot p.comJuros {
+        text-align: right;
+        font-size: 12px;
+        padding: 0 5px;
+    }
+
+    .boxTot .text-right {
+        text-align: right !important;
+        display: inline-block;
+    }
+
+    .boxTot .cartoes .boleto {
+        height: 22px;
+        padding: 0 4px;
+        margin: 3px 0;
+    }
+      
+      .hide {display: none !important;}
+
+    @media screen and (max-width: 996px) {
+        .boxTot .parce.parcela {
+font-size: 12px;
+width: max-content;
+margin: 0 -10px;
+        }
+        .boxTot .col-xs-3.col-sm-3.text-left.rightMobile {
+            text-align: right !important;
+        }
+        .boxTot p.fas.fa-angle-down.iconeBt {
+            margin: 0 0 0 10px;
+        }
+    }
+
+    .boxTot .iconeBt img {
+        height: 12px;
+    }
+
+    .boxTot p.iconeBt {
+        margin: 0 0 0 16px !important;
+    }
+  </style>
+
+<script>
+
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function verparcelas () {
+document.querySelectorAll(".opentabb").forEach(function(el) {
+el.classList.toggle("hide");
+});
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+if (!event.target.matches('.dropbtn')) {
+var dropdowns = document.getElementsByClassName("dropdown-content");
+var i;
+for (i = 0; i < dropdowns.length; i++) {
+var openDropdown = dropdowns[i];
+if (openDropdown.classList.contains('show')) {
+openDropdown.classList.remove('show');
+}
+}
+}
+}
+
+</script>
+
+<style>
+
+.add_card {
+
+
+
+}
+
+</style>
+
+    <div class="boxTot ">
+        <div class="btTable abreTable tableHeadB dropbtn" onclick="verparcelas()" style="margin:0; cursor: pointer;">
+          <div class="row" style="margin: 0">
+                <div class="col-xs-9 col-sm-9 text-left btParcela" style="padding:0">
+                    <div class="boxCartoes"><span class="cartoes"><img src="//cdn.shopify.com/s/files/1/0619/1045/0424/t/8/assets/visa.svg?v=43396516388255831211644060316" alt="visa"></span><span class="cartoes"><img src="//cdn.shopify.com/s/files/1/0619/1045/0424/t/8/assets/master.svg?v=163550031558387206931644060309" alt="mastercard"></span><span class="cartoes"><img src="//cdn.shopify.com/s/files/1/0619/1045/0424/t/8/assets/celo.svg?v=157196844453194241601644060301" alt="elo"></span><span class="cartoes"><img src="//cdn.shopify.com/s/files/1/0619/1045/0424/t/8/assets/picpay.svg?v=76075902937102483381644060313" alt="picpay"></span><span class="cartoes"><img src="//cdn.shopify.com/s/files/1/0619/1045/0424/t/8/assets/mp.svg?v=148275419576865403601644060310" alt="mercado pago"></span><img class="add_card" "="">
+                      
+
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-3 text-right rightMobile" style="padding:0">
+                    <div class="btParcela">
+                        <span class="parce parcela">Parcelas</span>
+                          <p class=" iconeBt">
+                            <i class="las la-las la-chevron-down"></i>
+                          </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="variant-content" data-variant-id="">
+          <div class="opentabb tabelaJuros dropdown-content hide">
+              <span class="bodyTable">
+                  <span class="divide">
+                      <span class="rowTable">
+                        <span class="vezes">1x</span> de R$ 245,05 Sem Juros 
+                      </span>
+                      <span class="rowTable">
+                        <span class="vezes">2x</span> de R$ 122,52 Sem Juros</span>
+                      <span class="rowTable">
+                        <span class="vezes">3x</span> de R$ 81,68 Sem Juros</span>
+                      <span class="rowTable">
+                        <span class="vezes">4x</span> de R$ 61,26 Sem Juros</span>
+                      <span class="rowTable">
+                        <span class="vezes">5x</span> de R$ 49,01
+Sem Juros</span>
+                      <span class="rowTable">
+                        <span class="vezes">6x</span> de R$ 40,84 Sem Juros</span>
+                  </span>
+                  <span class="divide">
+                    <span class="rowTable">
+                      <span class="vezes">7x</span> de R$ 35,00 Sem Juros</span>
+                    <span class="rowTable">
+                      <span class="vezes">8x</span> de R$ 30,63 Sem Juros</span>
+                    <span class="rowTable">
+                      <span class="vezes">9x</span> de R$ 27,22 Sem Juros</span>
+                    <span class="rowTable">
+                      <span class="vezes">10x</span> de R$ 24,50 Sem Juros</span>
+                    <span class="rowTable">
+                      <span class="vezes">11x</span> de R$ 22,27 Com Juros</span> 
+                    <span class="rowTable">
+                      <span class="vezes">12x</span> de R$ 20,42
+Com Juros</span>
+                  </span>
+              </span>
+          </div>
+          <style>             .j-box-boleto{margin:0; padding: 10px; border-top:1px solid #dadada;display: none;}             .j-box-deposito{margin:0; padding: 10px; border-top:1px solid #dadada;display: none;}         </style>
+          <div class="btTable j-box-boleto tableBottomdB" style="margin: 0px; display: block;">
+              <div class="row" style="margin: 0">
+                  <div class="col-xs-9 col-sm-9 text-left btParcela" style="padding:0"><span class="cartoes"><img src="//cdn.shopify.com/s/files/1/0619/1045/0424/t/8/assets/boleto.svg?v=29042640155392895611644060300" alt="boleto"></span><span class="cartoes"><img src="//cdn.shopify.com/s/files/1/0619/1045/0424/t/8/assets/pix.svg?v=16211414789327646621644060313" alt="pix"></span></div>
+                  <div class="col-xs-3 col-sm-3 btParcela text-right" style=" padding: 0 ">
+                      <span class="parce">R$ 245,05</span>
+                  </div>
+              </div>
+          </div>
+          </div>
+     
+    </div>
+</div>
+
+
+{% schema %}
+{
+    "name": "Parcelas",
+    "settings": [
+    {
+        "id": "parcelas-produtos",
+        "type": "text",
+        "label": "Parcelas Compras Cartão"
+    }
+    
+    ],
+     "presets": [
+    {
+        "name":"Parcelas",
+        "category": "Reference"
+
+    }
+    ]
+}
+{% endschema %}

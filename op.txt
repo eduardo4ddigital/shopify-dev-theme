@@ -1,0 +1,38 @@
+criamos uma pasta do projeto
+
+download do tema 
+
+colocamos o tema dawn na pasta
+
+abrimos a pasta com vsc
+
+rodamos no terminal 
+
+git init (criar um repositório git dentro do proejto)
+
+git status para ver quais arquivos não foram linkados com nenhum repositório github
+
+rodamos comando git add -A para que ele prepare os arquivos para serem linkados 
+
+PS D:\shopify-dev-theme> git remote add origin https://github.com/duduwiebb/shopify-dev-theme.git
+PS D:\shopify-dev-theme> git remote -v
+origin  https://github.com/duduwiebb/shopify-dev-theme.git (fetch)
+origin  https://github.com/duduwiebb/shopify-dev-theme.git (push)
+PS D:\shopify-dev-theme> git commit -m "nome que será registrado como aletração"
+
+
+git push origin master (para enviar as mudanças para nuvem)
+
+
+
+
+abrimos painel admin da loja e conectamos o repósitorio do tema github
+
+shopify cli 
+ logamos na loja através do terminal do vsc
+
+PS D:\shopify-dev-theme> shopify login --store modelo-curso.myshopify.com
+
+beautify code no visual studio 
+
+Shift + Alt + F
